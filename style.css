@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body,html{
+background-color: #0a101e;
+color: #a0adb8;
+overflow-x: hidden;
+}
+#cursor{
+    height: 10px;
+    width: 10px;
+    background-color: #CF911E;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+}
+
+#cursor-blur{
+    height: 50px;
+    width: 50px;
+    /* background-color: #b1f1003b; */
+    border-radius: 50%;
+    border: 1px solid #CF911E;
+    position: fixed;
+    /* filter: blur(40px); */
+    z-index: 9;
+}
+.text-img{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.hel{
+    height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+}
+.image{
+    height: 100vh;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.image img{
+    position: relative;
+    top: 0;
+    left: 30%;
+   width: 550px;
+   
+}
+.nav-bar{
+    width: 100%;
+    height: 66px;
+    padding: 0 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-iteam a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 12px;
+}
+
+#home{
+    color: orange;
+}
+
+.phone-number i{
+    color: white;
+    font-size: 19px;
+}
+.phone-number big{
+    color: orange;
+}
+
+.hel{
+    padding: 0 9%;
+    width: 500px;
+    height: auto;
+    /* margin-top: 10%; */
+   
+}
+.hel .first{
+    margin-bottom: 12px;
+    font-size: 37px;
+    color: orange;
+}
+
+.hel h1{
+    margin-top: 22px;
+    font-size: 94px;
+    color: white;
+}
+.hel .second{
+    margin-top: 12px;
+    font-size: 22px;
+}
+.hel button{
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 19px;
+    background-color: rgb(207, 145, 30);
+    font-size: 17px;
+}
+
+.content{
+    margin-top: 33px;
+    align-items: center;
+    text-align: center;
+}
+.content h1{
+    color: rgb(207, 145, 30);
+    text-decoration: underline orange ;
+    line-height: 2px;
+}
+
+.content-text{
+    padding: 0 10%;
+    margin-top: 33px;
+    display: flex;
+}
+.text{
+    padding: 0 5%;
+    margin-top: 22px;
+}
+.first2{
+    font-size: 32px;
+    color: white;
+}
+.second2{
+    font-size: 20px;
+    margin-top: 22px;
+    color: orange;
+}
+.third{
+    margin-top: 22px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+.content-text ul{
+    margin-top: 22px;
+    line-height: 48px;
+}
+
+.content-text button{
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 19px;
+    background-color: rgb(207, 145, 30);
+    font-size: 17px;
+}
+.main-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.services{
+    margin-top: 44px;
+}
+
+.cards{
+    width: 300px;
+    height: 300px;
+    border: 2px solid transparent;
+    align-items: center;
+    padding: 0 2%;
+    background-color: #101624;
+}
+.cards i{
+    font-size: 62px; 
+    margin-left: 42%;
+    margin-top: 12px;
+    
+}
+.ss{
+    font-size: 12px;
+    margin-left: 38%;
+}
+.cards p{
+    margin-top: 22px;
+  font-size: 17px;
+}
+.skills{
+    margin-top: 66px;
+    align-items: center;
+    text-align: center;
+}
+
+.skills h2{
+    color: rgb(207, 145, 30);
+    text-decoration: underline orange ;
+    line-height: 2px;
+}
+
+.skilltext{
+    width: 700px;
+    height: auto;
+    padding: 0 10%;
+    margin-top: 80px;
+}
+.skilltext1{
+    color: white;
+    font-size: 29px;
+}
+
+.skilltext2{
+    margin-top: 22px;
+    letter-spacing: 1px;
+}
+.skilltext3 ul{
+    line-height: 39px;
+}
+.skilltext3 ul b{
+    color: white;
+}
+.skilltext3 ul big{
+    color: orange;
+    margin-left: 22px;
+}
+.towcol{
+    display: inline-flex;
+    
+}
+.portfolios h1{
+    color: rgb(207, 145, 30);
+    text-decoration: underline orange ;
+    line-height: 2px;
+    text-align: center;
+    margin-top: 30px;
+}
+.port-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.ports{
+    width: 300px;
+    height: 300px;
+    border: 2px solid transparent;
+    margin-top: 50px;
+}
+.port-img{
+    width: 100%;
+    background-size: cover;
+}
+.portbtn{
+    width: 150px;
+    height: 40px;
+    margin-left: 43%;
+    border-radius: 15px;
+    border: none;
+    margin-top: 6%;
+    background-color: rgb(207, 145, 30);
+    font-size: 17px;
+}
+.reviews{
+    margin-top: 66px;
+    align-items: center;
+    text-align: center;
+}
+.reviews h2{
+    color: rgb(207, 145, 30);
+    text-decoration: underline orange ;
+    line-height: 2px;
+}
+
+.box{
+    /* border: 2px solid white; */
+    width: 350px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box p{
+    margin-left: 23px;
+}
+
+.box-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: cover;
+}
+.reviewbox{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+.contact-form{
+        /* border: 2px solid white; */
+        width: 80%;
+        height: auto;
+        margin-left: 80px;
+        margin-top: 98px;
+        text-align: center;
+}
+
+
+.twocol2 h1{
+    text-align: center;
+    margin-top: 40px;
+    
+    color: rgb(207, 145, 30);
+    text-decoration: underline orange ;
+    line-height: 2px;
+}
+form input{
+    width: 600px;
+    height: 40px;
+    color: black;
+    font-size: 17px;
+    background-color: #a0adb8;
+}
+form textarea{
+    width: 300px;
+    height: 90px;
+    background-color: #a0adb8;
+}
+.contact-form h2{
+    color: white;
+   
+    margin-bottom: 12px;
+}
+
+form button{
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    background-color:orange;
+    color: white;
+    border: none;
+}
+
+.information{
+    text-align: center;
+    margin-top: 180px;
+    
+}
+.information i{
+    color: white;
+}
+.information b{
+    color: white;
+}
+.information a{
+    text-decoration: none;
+    color: white;
+}
